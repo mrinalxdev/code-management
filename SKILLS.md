@@ -1,7 +1,12 @@
 ---
-name: backend-code-manager
-description: Automate backend code management — generating and updating documentation, monitoring file changes, and staging commits for approval. Use this skill when the user wants to auto-document a backend codebase, generate or refresh API docs, write changelogs, detect what changed between file versions, produce commit messages, or prepare a git commit for review before it is applied. Triggers include: "document this", "what changed", "write a changelog", "generate a commit message", "update the README", "sync the docs", or any request involving keeping backend documentation and version history in step with the actual code.
-license: Complete terms in LICENSE.txt
+name: code-manager
+version: 1.0.0
+description: |
+  Automate backend code management — generating and updating documentation, monitoring file changes, and staging commits for approval. Use this skill when the user wants to auto-document a backend codebase, generate or refresh API docs, write changelogs, detect what changed between file versions, produce commit messages, or prepare a git commit for review before it is applied. Triggers include: "document this", "what changed", "write a changelog", "generate a commit message", "update the README", "sync the docs", or any request involving keeping backend documentation and version history in step with the actual code.
+allowed-tools:
+  - Read
+  - Write
+  - Edit
 ---
 
 This skill automates the unglamorous but critical work of keeping backend codebases legible: documentation that reflects the real code, changelogs that tell the true story, and commits that are clean, atomic, and approved before they land.
