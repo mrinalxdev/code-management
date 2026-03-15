@@ -2,7 +2,7 @@
 name: code-manager
 version: 1.0.0
 description: |
-  Automate backend code management — generating and updating documentation, monitoring file changes, and staging commits for approval. Use this skill when the user wants to auto-document a backend codebase, generate or refresh API docs, write changelogs, detect what changed between file versions, produce commit messages, or prepare a git commit for review before it is applied. Triggers include: "document this", "what changed", "write a changelog", "generate a commit message", "update the README", "sync the docs", or any request involving keeping backend documentation and version history in step with the actual code.
+  Automate backend code management generating and updating documentation, monitoring file changes, and staging commits for approval. Use this skill when the user wants to auto-document a backend codebase, generate or refresh API docs, write changelogs, detect what changed between file versions, produce commit messages, or prepare a git commit for review before it is applied. Triggers include: "document this", "what changed", "write a changelog", "generate a commit message", "update the README", "sync the docs", or any request involving keeping backend documentation and version history in step with the actual code.
 allowed-tools:
   - Read
   - Write
@@ -15,7 +15,7 @@ The user provides source files, diffs, or descriptions of changes. They may want
 
 ## Core Principle
 
-**Never commit anything without explicit user approval.** Every workflow in this skill ends with a proposed action — a doc block, a changelog entry, a commit — shown to the user for review. Nothing is applied until the user says yes. This is not a suggestion; it is the contract.
+**Never commit anything without explicit user approval.** Every workflow in this skill ends with a proposed action a doc block, a changelog entry, a commit  shown to the user for review. Nothing is applied until the user says yes. This is not a suggestion; it is the contract.
 
 ---
 
